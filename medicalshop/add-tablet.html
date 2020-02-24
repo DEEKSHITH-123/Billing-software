@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+<style>
+body {
+  background-color: rgb(28, 40, 51);
+}
+ table {
+  border: 1px solid black;
+}
+    #details{
+        margin-left: 40px;
+    }    
+</style>
+</head>
+<body>
+    <h1 style="color:white;">MEDICAL STORE BILLING SYSTEM</h1><br>
+    <h2 style="margin-left:40px; color:white;">Add the required tablet</h2>
+    <p style="margin-left:40px; color:white;">Enter the details of the tablet:</p>
+    <div id="details">
+    <form action="addtab.php" method="post">
+    <label for="Id" style="color: white">Enter Id:</label><br>
+    <input type="number" name="num"><br>
+    <label for="name" style="color: white">Enter Name:</label><br>
+    <input type="text" name="name"><br>
+    <label for="type" style="color: white">Enter Type:</label><br>
+    <input type="text" name="type"><br>
+    <label for="price" style="color: white">Enter Price:</label><br>
+    <input type="number" name="price"><br>
+        <br>
+    <input type="submit" class="btn btn-simple btn-primary btn-lg" name="submit" value="Add">
+    </form>
+    </div>
+    </body>
+</html>
